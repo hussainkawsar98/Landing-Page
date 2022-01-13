@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+p {
+    font-size: 17px;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+p {
+    margin-bottom: 10px;
+}
+.container {
+    padding: 0 9%;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+
+/* Banner Style */
+#banner {
+    color: #fff;
+    height: 600px;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    background-image: url('../images/Capture.JPG');
+}
+.banner-text {
+    width: 50%;
+}
+#banner h2 {
+    line-height: 55px;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+#banner p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+#banner a {
+    line-height: 50px;
+    background-color: #0982f4;
+    margin-top: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 180px;
+    text-align: center;
+    font-weight: 700;
+    height: 50px;
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 20px;
+    border-radius: 2px;
+}
+#banner a:last-child {
+    background-color: #242830;
+}
+
+/* Services Style */
+#services {
+    background-color: #242830;
+    color: #f1f1f1;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+#services .part {
+    display: flex;
+    column-gap: 30px;
+    padding-bottom: 40px;
+}
+#services .part-single {
+    text-align: center;
+    padding: 30px 20px;
+}
+#services .part-single h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* Pricing Style */
+#price {
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background-color: #242830;
+    color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.unstall {
+ padding: 30px 0;
+ width: 40%;
+ text-align: center;
+}
+.unstall h2 {
+    font-size: 42px;
+    line-height: 55px;
+    margin-bottom: 10px;
+}
+.pricing-single {
+    background-color: #2C3039;
+    padding: 30px 20px;
+}
+.pricing-single h4 {
+    font-size: 56px;
+    line-height: 60px;
+}
+.pricing-single h4 span{
+    color: #f1f1f1;
+    opacity: 0.5;
+    font-size: 25px;
+}
+.pricing-single h4 span:first-child{
+    font-size: 56px;
+}
+.pricing-single ul {
+    padding: 0px;
+    list-style: none;
+}
+.pricing-single ul li{
+    padding: 10px 10px;
+    border-bottom: 1px solid #222;
+}
+.pricing-single ul li:first-child{
+    padding: 12px 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.pricing-single ul li i{
+    color:green;
+    padding-right: 5px;
+}
