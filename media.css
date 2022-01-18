@@ -1,0 +1,69 @@
+@media only screen and (max-width:1200px){
+    .unstall {
+        width: 55%;
+    }  
+}
+@media only screen and (max-width:992px){
+    #services {
+        padding-bottom: 15px;
+    }
+    .unstall {
+        width: 55%;
+    }
+    .pricing_part {
+        width: 50%;
+    }
+}
+@media only screen and (max-width:768px){
+    .banner {
+        height: 500px;
+    }
+    .banner-text {
+        width: 80%;
+        height: 500px;
+    }
+    #services .part {
+        flex-direction: column;
+        margin: 0 5%;
+    }
+    #getittouch h3 {
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width:600px){
+    .banner {
+        height: 400px;
+    }
+    .banner-text {
+        width: 90%;
+        height: 400px;
+    }
+    .btn {
+        line-height: 40px;
+        width: 160px;
+        height: 40px;
+    }
+    .unstall {
+        width: 80%;
+    }
+    .pricing_part {
+        width: 75%;
+    }
+    #getittouch {
+        flex-wrap: wrap;
+    }
+    #getittouch h3{
+        margin-bottom: 30px;
+    }
+    footer#footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .leftFooter {
+        text-align: center;
+    }
+    .socialIcons {
+        float: none;
+        text-align: center;
+    }
+}
